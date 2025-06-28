@@ -1,0 +1,501 @@
+/* RTL Support for Persian Language */
+[dir="rtl"] {
+  /* General RTL adjustments */
+  text-align: right;
+  direction: rtl;
+}
+
+/* Header and Navigation RTL adjustments */
+[dir="rtl"] .mantine-AppShell-header {
+  border-left: 1px solid var(--mantine-color-gray-3);
+  border-right: none;
+}
+
+[dir="rtl"] .mantine-AppShell-navbar {
+  border-right: 1px solid var(--mantine-color-gray-3);
+  border-left: none;
+}
+
+/* Menu and Dropdown RTL adjustments */
+[dir="rtl"] .mantine-Menu-dropdown {
+  text-align: right;
+}
+
+[dir="rtl"] .mantine-Menu-item {
+  text-align: right;
+}
+
+/* Tooltip RTL adjustments */
+[dir="rtl"] .mantine-Tooltip-tooltip {
+  text-align: right;
+}
+
+/* Form elements RTL adjustments */
+[dir="rtl"] .mantine-Input-input {
+  text-align: right;
+}
+
+[dir="rtl"] .mantine-TextInput-input {
+  text-align: right;
+}
+
+[dir="rtl"] .mantine-Textarea-input {
+  text-align: right;
+}
+
+/* Table RTL adjustments */
+[dir="rtl"] .mantine-Table-th {
+  text-align: right;
+}
+
+[dir="rtl"] .mantine-Table-td {
+  text-align: right;
+}
+
+/* Button and Action RTL adjustments */
+[dir="rtl"] .mantine-Button-root {
+  text-align: right;
+}
+
+/* Modal and Dialog RTL adjustments */
+[dir="rtl"] .mantine-Modal-header {
+  text-align: right;
+}
+
+[dir="rtl"] .mantine-Modal-title {
+  text-align: right;
+}
+
+/* List and Group RTL adjustments */
+[dir="rtl"] .mantine-Group-root {
+  flex-direction: row-reverse;
+}
+
+/* Icon positioning in RTL */
+[dir="rtl"] .mantine-Group-root .mantine-Group-child:not(:last-child) {
+  margin-left: var(--mantine-spacing-xs);
+  margin-right: 0;
+}
+
+/* Breadcrumb RTL adjustments */
+[dir="rtl"] .mantine-Breadcrumbs-root {
+  flex-direction: row-reverse;
+}
+
+/* Notification RTL adjustments */
+[dir="rtl"] .mantine-Notification-root {
+  text-align: right;
+}
+
+/* Alert RTL adjustments */
+[dir="rtl"] .mantine-Alert-root {
+  text-align: right;
+}
+
+/* Card RTL adjustments */
+[dir="rtl"] .mantine-Card-header {
+  text-align: right;
+}
+
+/* Tabs RTL adjustments */
+[dir="rtl"] .mantine-Tabs-list {
+  flex-direction: row-reverse;
+}
+
+/* Accordion RTL adjustments */
+[dir="rtl"] .mantine-Accordion-control {
+  text-align: right;
+}
+
+/* Timeline RTL adjustments */
+[dir="rtl"] .mantine-Timeline-item {
+  text-align: right;
+}
+
+/* Progress RTL adjustments */
+[dir="rtl"] .mantine-Progress-root {
+  direction: rtl;
+}
+
+/* Slider RTL adjustments */
+[dir="rtl"] .mantine-Slider-root {
+  direction: rtl;
+}
+
+/* Switch RTL adjustments */
+[dir="rtl"] .mantine-Switch-root {
+  flex-direction: row-reverse;
+}
+
+/* Checkbox RTL adjustments */
+[dir="rtl"] .mantine-Checkbox-root {
+  flex-direction: row-reverse;
+}
+
+/* Radio RTL adjustments */
+[dir="rtl"] .mantine-Radio-root {
+  flex-direction: row-reverse;
+}
+
+/* Select RTL adjustments */
+[dir="rtl"] .mantine-Select-dropdown {
+  text-align: right;
+}
+
+/* MultiSelect RTL adjustments */
+[dir="rtl"] .mantine-MultiSelect-dropdown {
+  text-align: right;
+}
+
+/* DatePicker RTL adjustments */
+[dir="rtl"] .mantine-DatePicker-dropdown {
+  text-align: right;
+}
+
+/* TimeInput RTL adjustments */
+[dir="rtl"] .mantine-TimeInput-input {
+  text-align: right;
+}
+
+/* NumberInput RTL adjustments */
+[dir="rtl"] .mantine-NumberInput-input {
+  text-align: right;
+}
+
+/* PasswordInput RTL adjustments */
+[dir="rtl"] .mantine-PasswordInput-input {
+  text-align: right;
+}
+
+/* FileInput RTL adjustments */
+[dir="rtl"] .mantine-FileInput-input {
+  text-align: right;
+}
+
+/* ColorInput RTL adjustments */
+[dir="rtl"] .mantine-ColorInput-input {
+  text-align: right;
+}
+
+/* JsonInput RTL adjustments */
+[dir="rtl"] .mantine-JsonInput-input {
+  text-align: right;
+}
+
+/* MarkdownInput RTL adjustments */
+[dir="rtl"] .mantine-MarkdownInput-input {
+  text-align: right;
+}
+
+/* RichTextEditor RTL adjustments */
+[dir="rtl"] .mantine-RichTextEditor-root {
+  text-align: right;
+}
+
+/* Code RTL adjustments */
+[dir="rtl"] .mantine-Code-root {
+  text-align: right;
+}
+
+/* Kbd RTL adjustments */
+[dir="rtl"] .mantine-Kbd-root {
+  text-align: right;
+}
+
+/* Blockquote RTL adjustments */
+[dir="rtl"] .mantine-Blockquote-root {
+  text-align: right;
+}
+
+/* Highlight RTL adjustments */
+[dir="rtl"] .mantine-Highlight-root {
+  text-align: right;
+}
+
+/* Spoiler RTL adjustments */
+[dir="rtl"] .mantine-Spoiler-root {
+  text-align: right;
+}
+
+/* Text RTL adjustments */
+[dir="rtl"] .mantine-Text-root {
+  text-align: right;
+}
+
+/* Title RTL adjustments */
+[dir="rtl"] .mantine-Title-root {
+  text-align: right;
+}
+
+/* Anchor RTL adjustments */
+[dir="rtl"] .mantine-Anchor-root {
+  text-align: right;
+}
+
+/* List RTL adjustments */
+[dir="rtl"] .mantine-List-root {
+  text-align: right;
+}
+
+/* ThemeIcon RTL adjustments */
+[dir="rtl"] .mantine-ThemeIcon-root {
+  margin-left: var(--mantine-spacing-xs);
+  margin-right: 0;
+}
+
+/* Badge RTL adjustments */
+[dir="rtl"] .mantine-Badge-root {
+  text-align: right;
+}
+
+/* RingProgress RTL adjustments */
+[dir="rtl"] .mantine-RingProgress-root {
+  direction: rtl;
+}
+
+/* DonutChart RTL adjustments */
+[dir="rtl"] .mantine-DonutChart-root {
+  direction: rtl;
+}
+
+/* BarChart RTL adjustments */
+[dir="rtl"] .mantine-BarChart-root {
+  direction: rtl;
+}
+
+/* LineChart RTL adjustments */
+[dir="rtl"] .mantine-LineChart-root {
+  direction: rtl;
+}
+
+/* AreaChart RTL adjustments */
+[dir="rtl"] .mantine-AreaChart-root {
+  direction: rtl;
+}
+
+/* PieChart RTL adjustments */
+[dir="rtl"] .mantine-PieChart-root {
+  direction: rtl;
+}
+
+/* RadarChart RTL adjustments */
+[dir="rtl"] .mantine-RadarChart-root {
+  direction: rtl;
+}
+
+/* ScatterChart RTL adjustments */
+[dir="rtl"] .mantine-ScatterChart-root {
+  direction: rtl;
+}
+
+/* Sparkline RTL adjustments */
+[dir="rtl"] .mantine-Sparkline-root {
+  direction: rtl;
+}
+
+/* Treemap RTL adjustments */
+[dir="rtl"] .mantine-Treemap-root {
+  direction: rtl;
+}
+
+/* FunnelChart RTL adjustments */
+[dir="rtl"] .mantine-FunnelChart-root {
+  direction: rtl;
+}
+
+/* Heatmap RTL adjustments */
+[dir="rtl"] .mantine-Heatmap-root {
+  direction: rtl;
+}
+
+/* Sankey RTL adjustments */
+[dir="rtl"] .mantine-Sankey-root {
+  direction: rtl;
+}
+
+/* Sunburst RTL adjustments */
+[dir="rtl"] .mantine-Sunburst-root {
+  direction: rtl;
+}
+
+/* Voronoi RTL adjustments */
+[dir="rtl"] .mantine-Voronoi-root {
+  direction: rtl;
+}
+
+/* Chord RTL adjustments */
+[dir="rtl"] .mantine-Chord-root {
+  direction: rtl;
+}
+
+/* ForceGraph RTL adjustments */
+[dir="rtl"] .mantine-ForceGraph-root {
+  direction: rtl;
+}
+
+/* Tree RTL adjustments */
+[dir="rtl"] .mantine-Tree-root {
+  direction: rtl;
+}
+
+/* NetworkGraph RTL adjustments */
+[dir="rtl"] .mantine-NetworkGraph-root {
+  direction: rtl;
+}
+
+/* Grid RTL adjustments */
+[dir="rtl"] .mantine-Grid-root {
+  direction: rtl;
+}
+
+/* Stack RTL adjustments */
+[dir="rtl"] .mantine-Stack-root {
+  direction: rtl;
+}
+
+/* Paper RTL adjustments */
+[dir="rtl"] .mantine-Paper-root {
+  text-align: right;
+}
+
+/* Container RTL adjustments */
+[dir="rtl"] .mantine-Container-root {
+  text-align: right;
+}
+
+/* Center RTL adjustments */
+[dir="rtl"] .mantine-Center-root {
+  text-align: right;
+}
+
+/* Divider RTL adjustments */
+[dir="rtl"] .mantine-Divider-root {
+  direction: rtl;
+}
+
+/* Space RTL adjustments */
+[dir="rtl"] .mantine-Space-root {
+  direction: rtl;
+}
+
+/* ScrollArea RTL adjustments */
+[dir="rtl"] .mantine-ScrollArea-root {
+  direction: rtl;
+}
+
+/* Overlay RTL adjustments */
+[dir="rtl"] .mantine-Overlay-root {
+  direction: rtl;
+}
+
+/* Transition RTL adjustments */
+[dir="rtl"] .mantine-Transition-root {
+  direction: rtl;
+}
+
+/* Portal RTL adjustments */
+[dir="rtl"] .mantine-Portal-root {
+  direction: rtl;
+}
+
+/* FocusTrap RTL adjustments */
+[dir="rtl"] .mantine-FocusTrap-root {
+  direction: rtl;
+}
+
+/* VisuallyHidden RTL adjustments */
+[dir="rtl"] .mantine-VisuallyHidden-root {
+  direction: rtl;
+}
+
+/* Box RTL adjustments */
+[dir="rtl"] .mantine-Box-root {
+  text-align: right;
+}
+
+/* Flex RTL adjustments */
+[dir="rtl"] .mantine-Flex-root {
+  flex-direction: row-reverse;
+}
+
+/* SimpleGrid RTL adjustments */
+[dir="rtl"] .mantine-SimpleGrid-root {
+  direction: rtl;
+}
+
+/* AspectRatio RTL adjustments */
+[dir="rtl"] .mantine-AspectRatio-root {
+  direction: rtl;
+}
+
+/* Skeleton RTL adjustments */
+[dir="rtl"] .mantine-Skeleton-root {
+  direction: rtl;
+}
+
+/* Loader RTL adjustments */
+[dir="rtl"] .mantine-Loader-root {
+  direction: rtl;
+}
+
+/* Ring RTL adjustments */
+[dir="rtl"] .mantine-Ring-root {
+  direction: rtl;
+}
+
+/* Dots RTL adjustments */
+[dir="rtl"] .mantine-Dots-root {
+  direction: rtl;
+}
+
+/* Bars RTL adjustments */
+[dir="rtl"] .mantine-Bars-root {
+  direction: rtl;
+}
+
+/* Oval RTL adjustments */
+[dir="rtl"] .mantine-Oval-root {
+  direction: rtl;
+}
+
+/* Infinity RTL adjustments */
+[dir="rtl"] .mantine-Infinity-root {
+  direction: rtl;
+}
+
+/* Custom card table RTL adjustments */
+[dir="rtl"] .card {
+  direction: rtl;
+}
+
+[dir="rtl"] .section {
+  flex-direction: row-reverse;
+}
+
+/* Custom layout RTL adjustments */
+[dir="rtl"] .inner {
+  flex-direction: row-reverse;
+}
+
+/* Custom navbar RTL adjustments */
+[dir="rtl"] .navbar {
+  border-right: 1px solid var(--mantine-color-gray-3);
+  border-left: none;
+}
+
+[dir="rtl"] .mobileLinkGroup {
+  flex-direction: row-reverse;
+}
+
+/* Tournaments specific RTL adjustments */
+[dir="rtl"] .mantine-Card-root {
+  text-align: right;
+}
+
+[dir="rtl"] .mantine-Card-section {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .mantine-Group-root {
+  flex-direction: row-reverse;
+} 
