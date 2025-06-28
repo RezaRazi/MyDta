@@ -60,7 +60,7 @@ export default function TournamentsCardTable({
   const rows = tournaments
     .sort((t1: Tournament, t2: Tournament) => t1.name.localeCompare(t2.name))
     .map((tournament) => (
-      <Group key={tournament.id} className={classes.card}>
+      <Group key={tournament.id} className={classes.card} dir={isRTL ? 'rtl' : 'ltr'}>
         <UnstyledButton component={Link} href={`/tournaments/${tournament.id}/stages`} w="100%">
           <Card shadow="sm" padding="lg" radius="md" withBorder w="100%">
             <Card.Section>
@@ -110,7 +110,7 @@ export default function TournamentsCardTable({
   if (rows.length < 1) return <EmptyTableInfo entity_name={t('tournaments_title')} />;
 
   return (
-    <Group gap="sm" style={{ width: '100%' }}>
+    <Group gap="sm" style={{ width: '100%' }} dir={isRTL ? 'rtl' : 'ltr'}>
       {rows}
     </Group>
   );

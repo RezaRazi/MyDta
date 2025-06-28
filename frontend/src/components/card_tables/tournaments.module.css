@@ -19,3 +19,12 @@
     var(--mantine-font-family);
   line-height: 1;
 }
+
+/* RTL Support */
+[dir="rtl"] .section {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .card {
+  direction: rtl;
+}
